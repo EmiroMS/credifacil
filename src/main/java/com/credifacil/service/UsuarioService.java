@@ -25,4 +25,6 @@ public class UsuarioService {
     public Usuario findByUsuario(String usuario) {
         return usuarioRepository.findByUsuario(usuario);
     }
+    
+    
 }
